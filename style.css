@@ -31,3 +31,15 @@ h1 {
     justify-content: center;
     background-color: #118ab2;
 }
+
+.box-red {
+    background-color: red;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
