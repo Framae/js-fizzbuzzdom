@@ -4,10 +4,20 @@ for (let i=1; i<=100; i++) {
     
     console.log(`ciclo: ${i}`);
 
-    containerElement.innerHTML += "<div class='box'>" + i + "</div>"
-
     if (i%3==0) {
-          console.log(i+" è multiplo di 3")
+        containerElement.innerHTML += "<div class='box-red'>" + i + "</div>"
+    
+    }
+
+    else if (i%5==0){
+        containerElement.innerHTML += "<div class='box-green'>" + i + "</div>"
+    }
+
+    // else if (i%3==0 && i%5==0) {
+    //     containerElement.innerHTML += "<div class='box-yellow'>" + i + "</div>"
+    // }
+    else {
+        containerElement.innerHTML += "<div class='box'>" + i + "</div>"
     }
 }
 

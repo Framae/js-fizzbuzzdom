@@ -33,13 +33,31 @@ h1 {
 }
 
 .box-red {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: red;
 }
 
 .box-green {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: green;
 }
 
 .box-yellow {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: yellow;
 }
