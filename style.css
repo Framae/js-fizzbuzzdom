@@ -43,6 +43,7 @@ h1 {
 }
 
 .box-green {
+    content: "";
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -53,6 +54,7 @@ h1 {
 }
 
 .box-yellow {
+    content: "";
     width: 100px;
     height: 100px;
     margin: 10px;
