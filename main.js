@@ -2,18 +2,18 @@ const containerElement = document.getElementById("container")
 
 for (let i=1; i<=100; i++) {
     
-    if (i%3==0) {
-        containerElement.innerHTML += "<div class='box-red'>" + "fizz" + i + "</div>"
+    if (i%5==0 && i%3==0) {
+        containerElement.innerHTML += "<div class='box-yellow'>FizzBuzz</div>"
         
     }
 
-    else if (i%5==0){
-        containerElement.innerHTML += "<div class='box-green'>" + "buzz" + i + "</div>"
+    else if (i%3==0){
+        containerElement.innerHTML += "<div class='box-red'>Fizz</div>"
         
     }
 
-    else if (i%5==0 && i%3==0) {
-         containerElement.innerHTML += "<div class='box-yellow'>" + "FizzBuzz" + i + "</div>"
+    else if (i%5==0) {
+         containerElement.innerHTML += "<div class='box-green'>Buzz</div>"
     }
     else {
         containerElement.innerHTML += "<div class='box'>" + i + "</div>"
